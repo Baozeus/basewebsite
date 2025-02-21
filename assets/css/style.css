@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  background-color: #fffcf4;
+}
+.header--fixed {
+  position: sticky;
+  top: -28px;
+}
+.header .content {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+.content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.home a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 8px 21px;
+}
+.home a:hover {
+  color: black;
+  text-shadow: 1px 0 0 currentColor;
+}
+nav ul {
+  display: flex;
+}
+nav {
+  margin-left: auto;
+}
+.button {
+  min-width: 118px;
+  padding: 11px 16px;
+  border-radius: 24px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+.header .button__signup {
+  min-width: 144px;
+  margin-left: 48px;
+}
